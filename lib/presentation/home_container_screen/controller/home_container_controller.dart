@@ -1,0 +1,10 @@
+import 'package:randi_s_application5/core/app_export.dart';
+import 'package:randi_s_application5/presentation/home_container_screen/models/home_container_model.dart';
+
+/// A controller class for the HomeContainerScreen.
+///
+/// This class manages the state of the HomeContainerScreen, including the
+/// current homeContainerModelObj
+class HomeContainerController extends GetxController {
+  Rx<HomeContainerModel> homeContainerModelObj = HomeContainerModel().obs;
+}
